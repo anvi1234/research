@@ -1,0 +1,21 @@
+
+footer{
+  
+ /* bottom:-500px; */
+  /* left: 0; */
+ /* position: absolute; */
+  width: 100%;
+  background-color: black;
+  
+  color: white;
+  text-align: center;
+  z-index:10;
+  height:auto; 
+}
+
+.container{
+ min-height:100px;
+}
+ul li a{
+    color:white;
+}

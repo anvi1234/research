@@ -1,0 +1,50 @@
+
+<div class="row">
+    <div class="col-sm-10 offset-sm-1">
+            <h4 style="position:relative;top:40px;color:#DC143C">PARTNER WITH US</h4>
+
+            <h5 class="title">UPLOAD AND EARN</h5>
+ 
+
+            <!-- <div class="row">
+
+         <div class="col-sm-3">
+         
+             <img src="assets/image/ns (1).jpg">
+             <p class="name">DR NEETA SINGH</p>
+             <p class="designation">GBU PROFESSOR</p>
+          
+         </div>
+         <div class="col-sm-3">
+                <img src="assets/image/vs.jpg">
+                <p class="name">DR VIDUSHI SHARMA</p>
+                <p class="designation">GBU PROFESSOR</p>
+            </div>
+        </div>
+     -->
+
+      <h3>Empowering People With Education To Enhance Their Lives</h3>
+      <p class="p1">RDC Solution’s mission is to connect the world to a great education.</p>
+      <p class="p2">To achieve this we at RDC solution welcome partners from national and International borders.
+        </p>
+  
+
+       
+
+        
+                <form [formGroup]="partnerfrom" (ngSubmit)="saveData()">
+                <input type="text" class="form-control" formControlName="name" placeholder="Your Name"><br>
+                <input type="text" class="form-control" placeholder="email" formControlName="email"><br>
+                <input type="text" class="form-control" placeholder="Title" formControlName="title of your presentation"><br>
+                 <input type='file' ng2FileSelect  class="form-control" [uploader]="uploader" name="pdf" formControlName="pdf">
+                  <p>*upload your research presentation in pdf format only/</p>
+                <br>
+  <button class="btn btn-primary" (click)="uploader.uploadAll()">Submit</button> 
+                
+             </form>
+
+
+    </div>
+</div>
+
+<!-- <div class="bb">asdfg</div> -->

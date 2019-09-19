@@ -1,0 +1,34 @@
+app {
+    min-height: 100%;
+    width: 100%;
+    margin-bottom: -271px;
+    display: table;
+  }
+  
+  header,
+  router-outlet,
+app-footer{
+    
+    width:100%;
+  }
+
+
+  
+  header-main {
+   height: 60px;
+  }
+  
+  router-outlet {
+    position: absolute;
+  }
+  
+  app-footer {
+    height: 271px;
+    background-color: black;
+
+    opacity:0.8
+  }
+
+  .page-footer{
+    z-index:10
+  }

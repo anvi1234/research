@@ -1,0 +1,20 @@
+.example-card {
+    max-width: 400px;
+  }
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+
+span{
+      color:grey;
+      display:left;
+      font-size: 24px;
+  }
+  button{
+      width:200%;
+    margin-top:10px;
+  }
+
+  

@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+
+h2{
+    font-family:'Dancing Script';
+    font-size:38px;
+}
+.navbar{
+    background-color: black;
+    color:white;
+}
+.nav-item{
+    font-size:17px;
+    margin-right:20px;
+    position: relative;
+    left:40px;
+}
+.nav-item:hover{
+    background-color:#FF8C00;
+    height:40px;
+}
+
+html,body{
+    min-height:100%;
+}
+.page-footer
+{
+  bottom: 0;
+  width: 100%;
+  height: auto;
+background-color: black;
+margin-bottom
+:auto;}
+
+ .navbar-nav a{
+    font-family: 'Ubuntu'
+}

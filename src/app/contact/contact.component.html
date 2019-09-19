@@ -1,0 +1,50 @@
+<html>
+    <body>
+        <div class="row">
+            
+                <div class="col-sm-10 offset-sm-1">
+                        <h4 style="position:relative;top:40px;color:#DC143C">CONTACT US</h4>
+                    <img src="./assets/image/contact.jpg">
+                    
+                    <div class="col-sm-4 offset-sm-1">
+                            <h4>RESEARCH DEVELOPMENT COMMITTEE SOLUTION</h4>
+                       <p>E -95, Pratap Nagar,</p>
+                       <p>Agra, Uttar Pradesh - 282010</p>
+                       <h4>Contact No:+91-9999167329</h4>
+                       <h6>Email id:rdcsolution123@gmail.com</h6>
+                       
+                    </div>
+
+                  
+                    <hr>
+                    Quick Query
+                   <div class="col-sm-8 offset-sm-1">
+                        <form [formGroup]="UserForm" (ngSubmit)="saveData()" class="example-form">
+                         
+                               
+                                        <mat-form-field class="example-full-width">
+                                                <input matInput placeholder="email" formControlName="email">
+                                              </mat-form-field>
+                                
+                             
+
+                                        <mat-form-field class="example-full-width">
+                                                <textarea matInput placeholder="Leave a comment" formControlName="message"></textarea>
+                                              </mat-form-field>
+                                           
+                                            
+                                                    <button class="btn btn-primary">Submit</button>
+                                             
+                               
+                           
+                               
+                                
+                                
+                              </form>
+                       
+
+                   </div>
+            </div>
+        </div>
+    </body>
+</html>

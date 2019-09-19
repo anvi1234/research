@@ -1,0 +1,62 @@
+
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+
+.col-sm-10{
+    /* position: relative; */
+    /* top:80px; */
+    background-color:#e6e5c9;
+    padding-left:50px;
+    padding-right:50px;
+    min-height:700px;
+    font-family:'Ubuntu';
+    color:grey;
+    margin-top: 80px;
+    margin-bottom: 80px;;
+
+  
+
+}
+
+
+
+img{
+    height:75%;
+    width:75%;
+    position: relative;
+    top:50px;
+}
+
+.name{
+    position: relative;
+    top:60px;
+    font-size: 20px;
+}
+.designation{
+    position: relative;
+    top:50px;
+}
+
+h3{
+    position: relative;
+    top:100px;
+}
+.p1{
+    position: relative;
+    top:100px;
+    font-size: 18px;
+}
+.p2{
+    position: relative;
+    top:80px;
+    font-size:18px;
+}
+form{
+    position: relative;
+    top:100px;
+    width:75%;
+}
+.title{
+      position:relative;
+      top:60px;
+      font-size:30px;
+}

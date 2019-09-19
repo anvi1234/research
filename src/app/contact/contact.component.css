@@ -1,0 +1,56 @@
+
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+
+body{
+    font-family: 'Ubuntu';
+    color:grey;
+}
+img{
+    height:40%;
+    width: 100%;
+    position: relative;
+    top:50px;
+}
+
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+    position: relative;
+   
+  
+    display: inline;
+  }
+  
+  .example-full-width {
+    width: 100%;
+    
+  }
+
+.col-sm-10{
+    /* position: relative;
+    top:80px; */
+    margin-top:80px;
+    margin-bottom:80px;
+    background-color:#e6e5c9;
+    padding-left:50px;
+    padding-right:50px;
+    height:auto;
+  
+
+
+}
+.col-sm-6{
+    display:inline-block
+}
+.col-sm-4 {
+    margin-top:60px;
+    
+}
+
+.btn{
+    position: absolute;
+   bottom:-10px;
+  left:700px;
+  width:120px;
+}

@@ -1,0 +1,113 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+
+body{
+    font-family: 'Ubuntu';
+    color:grey;
+}
+.col-sm-10{
+    position: relative;
+    bottom:180px;
+    background-color:#e6e5c9;
+    padding-left:50px;
+    padding-right:50px;
+    min-height:674px;
+
+  
+
+}
+
+div{
+    position: relative;
+    padding-top:80px;
+}
+ul li{
+    padding-top: 30px;
+}
+
+/*******buttonstuff******/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.buttons {
+   
+    text-align: center;
+}
+
+.btn-hover {
+    width: 50px;
+    font-size: 10px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    left:30px;
+    height: 35px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+     font-family: 'Ubuntu'; 
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.btn-hover.color-3 {
+    background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+    box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+}
+.btn-hover:focus {
+    outline: none;
+}
+button{
+    position: relative;;
+    
+    
+}
+
+
+
+/************/
+
+
+.col-sm-4{
+   position: relative;
+bottom:120px;
+}
+
+span{
+    display: right;
+    position:absolute;
+    bottom:1px;
+right:-10px;
+width:120px;
+}
+
+.fa{
+    font-size: 24px;
+    position: absolute;
+    color: green;
+   right:-50px;
+   bottom:7px;
+
+}
+
+#ip2 {
+    border-radius: 25px;
+    border: 2px solid  green;
+    padding: 20px; 
+    width: 400px;
+    height: 15px;    
+}
